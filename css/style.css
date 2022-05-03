@@ -700,6 +700,8 @@ img {
   color: var(--primary-text-color);
 }
 
+/* --------------------Backdrop---------------------- */
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -715,6 +717,8 @@ img {
 .backdrop.is-hidden .modal {
   transform: scale(0.5);
 }
+
+/* --------------------Modal---------------------- */
 
 .modal {
   position: relative;
@@ -746,4 +750,47 @@ img {
 
 button {
   cursor: pointer;
+}
+
+.modal-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+
+  margin: 40px 39px 12px 41px;
+}
+
+.modal-info {
+  margin: 0px 39px 20px 41px;
+}
+
+.modal-input {
+  padding: 0;
+  margin-top: 4px;
+  height: 40px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+}
+
+.modal-input-comment {
+  padding: 0;
+  margin-top: 4px;
+  height: 120px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+}
+
+.modal-label {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+}
+
+.modal-info-items + .modal-info-items {
+  margin-top: 10px;
 }
